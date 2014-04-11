@@ -1,0 +1,12 @@
+<%= form_for @picture do |form| %>
+	<%= form.label "title" %>
+	<%= form.text_field "title" %><br>
+
+	<%= form.label "artist" %>
+	<%= form.text_field "artist" %><br>
+
+	<%= form.label :name, "URL" %>
+	<%= form.text_field "url" %><br>
+
+	<%= form.submit "SUBMIT" %>
+<% end %>
